@@ -1,0 +1,67 @@
+:root {
+  --base-color: #37517e;
+  --bs-info: #0dcaf0;
+}
+
+.hero-container {
+  background: var(--base-color);
+}
+
+nav a {
+  color: white !important;
+}
+
+.dropdown-menu a {
+  color: black !important;
+}
+
+.text-sm {
+  font-size: 0.8rem !important;
+}
+
+.animate-image {
+  animation: move 1.5s linear infinite alternate;
+}
+
+@keyframes move {
+  form {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.text-blue {
+  color: var(--base-color) !important;
+}
+
+.gray {
+  width: 100px;
+  height: 1px;
+  background: lightgray;
+  margin: auto;
+  position: relative;
+}
+
+.blue {
+  width: 50%;
+  height: 2px;
+  background: #0dcaf0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-info {
+  transition: all 0.4s;
+}
+
+.hover-info:hover {
+  color: var(--bs-info) !important;
+}
+
+.bg-blue {
+  color: var(--base-color) !important;
+}
