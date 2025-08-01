@@ -54,7 +54,8 @@ nav a {
   transform: translate(-50%, -50%);
 }
 
-.hover-info {
+.hover-info,
+.hover-1 {
   transition: all 0.4s;
 }
 
@@ -64,4 +65,53 @@ nav a {
 
 .bg-blue {
   color: var(--base-color) !important;
+}
+
+.hover-1:hover {
+  color: var(--bs-info) !important;
+}
+
+.animate-card:hover {
+  transform: translateY(-10px);
+}
+
+animate-card {
+  transition: all 0.5s;
+}
+
+.work-card:hover img {
+  scale: 1.1;
+}
+.work-card:hover .content {
+  transform: translateY(-5px);
+}
+
+.work-card img {
+  transition: all 0.4s;
+}
+.work-card .content {
+  transition: all 0.4s;
+}
+
+.work-card h4 {
+  z-index: 444;
+  position: relative;
+}
+
+.image-container {
+  background: linear-gradient(
+      to right,
+      rgba(38, 68, 103, 0.5),
+      rgba(38, 68, 103, 0.6)
+    ),
+    url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp");
+}
+
+.class-1:hover {
+  background: var(--bs-info);
+  color: white;
+}
+
+.class-1 {
+  transition: 0.2s;
 }
